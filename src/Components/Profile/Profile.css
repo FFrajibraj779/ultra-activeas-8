@@ -1,0 +1,22 @@
+.profile-section{
+    border: 2px solid red;
+}
+
+.profile-img img{
+    width: 15%;
+    border-radius: 50%;
+    margin-right: 5px;
+   
+}
+.profile-img{
+    display: flex;
+          margin-bottom: 20px;
+   
+}
+.profile-desc{
+    display: flex;
+     justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5px;
+}
