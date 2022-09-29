@@ -1,11 +1,11 @@
 .descriptio-container{
  width: 30%;
 }
-.cart-container{
+/* .cart-container{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 width: 70%;
-}
-.home-container{
+} */
+/* .home-container{
   display: flex;
-}
+} */

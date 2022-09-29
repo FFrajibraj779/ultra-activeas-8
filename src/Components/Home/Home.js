@@ -15,7 +15,7 @@ const Home = () => {
         <div>
              <div className="hom-img">
                     
-                    <h1>Work With Home</h1>
+                    <h1 className='text-5xl font-bold'>Work With Home</h1>
                 </div>
                 <div className='home-container '>
 

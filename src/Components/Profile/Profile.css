@@ -19,4 +19,54 @@
     background-color: aliceblue;
     border-radius: 20px;
     padding: 5px;
+    margin-bottom: 40px;
+}
+
+.break-time{
+    display: flex;
+    justify-content: space-between;
+   background-color: aliceblue;
+   border-radius: 20px;
+   padding: 15px;
+   margin-top: 15px;
+   margin-bottom: 40px;
+}
+.break-time p{
+    background-color: white;
+    border-radius: 40%;
+    padding: 16px;
+
+}
+
+.break-time p:hover{
+    background-color: blue;
+    color: white;
+}
+
+.working-details{
+    display: flex;
+    justify-content: space-between;
+   background-color: aliceblue;
+   border-radius: 20px;
+   padding: 15px;
+   margin-top: 15px;
+   margin-bottom: 40px;
+}
+
+.complete-btn{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+
+  
+  
+
+}
+.complete-btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn-done{
+    text-align: center;
 }
