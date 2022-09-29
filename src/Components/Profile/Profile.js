@@ -1,7 +1,16 @@
 import React from 'react';
 import './Profile.css'
 import image from '../image/my-bg.png'
-const Profile = () => {
+const Profile = ({timeBtn}) => {
+    // console.log(timeBtn);
+    let prevTime= 0;
+    for(const times of  timeBtn){
+       
+         prevTime= prevTime+ times.time
+    //  time=time+ time.time
+    
+   
+    }
     return (
         <div className='profile-section'>
 
@@ -49,7 +58,7 @@ const Profile = () => {
 
                 <div className='working-details'>
                     <p style={{fontWeight:'600'}}>Working time</p>
-                    <p style={{color:'#444', fontWeight:'800'}}>19 days</p>
+                    <p style={{color:'#444', fontWeight:'800'}}> <span>{prevTime}</span> days</p>
                 </div>
             </div>
 
