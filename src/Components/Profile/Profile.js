@@ -35,10 +35,10 @@ const Profile = () => {
             <div >
                 <h3 className='break-title'>Add A Break</h3>
                 <div className='break-time'>
-                    <p>8 day </p>
-                    <p>18 day </p>
-                    <p>21 day </p>
-                    <p>28 day </p>
+                    <button className='day-btn'>8 day </button>
+                    <button className='day-btn'>18 day </button>
+                    <button className='day-btn'>21 day </button>
+                    <button className='day-btn'>28 day </button>
 
                 </div>
 

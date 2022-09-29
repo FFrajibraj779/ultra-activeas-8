@@ -58,9 +58,6 @@ background-image: url(../image/work.jfif);
 
 } 
 
-.description-container{
-
-}
 .cart-container{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
@@ -69,9 +66,7 @@ grid-template-columns: repeat(3, 1fr);
 } 
 
 @media  screen and (max-width:668px){
-  .container{
-  
-  }
+
  .home-info{
   display: flex;
   flex-direction: column;

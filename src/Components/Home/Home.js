@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Profile from '../Profile/Profile';
 import SingleCart from '../SingleCart/SingleCart';
 import './Home.css'
-import img from '../image/work.jfif'
+
 
 const Home = () => {
     const [carts, setCarts] = useState([]);
@@ -14,27 +14,27 @@ const Home = () => {
     }, [])
     return (
         <div>
-           
+
             <div className='home-container '>
 
                 <div className='container'>
-                <div className="home-info">
-               <p> </p>
-                <h1>Work With Home</h1>
-            </div>
-            <div className='career-title'>
-                <h2>Choice your Career</h2>
-            </div>
+                    <div className="home-info">
+                        <p> </p>
+                        <h1>Work With Home</h1>
+                    </div>
+                    <div className='career-title'>
+                        <h2>Choice your Career</h2>
+                    </div>
 
-                     <div className='cart-container'>
-                        
-                    {
-                        carts.map(cart => <SingleCart cart={cart} key={cart.id}></SingleCart>)
-                    }
-                     </div>
+                    <div className='cart-container'>
+
+                        {
+                            carts.map(cart => <SingleCart cart={cart} key={cart.id}></SingleCart>)
+                        }
+                    </div>
                 </div>
 
-                <div className="descriptio-container">
+                <div className="description-container">
 
                     <Profile></Profile>
                 </div>

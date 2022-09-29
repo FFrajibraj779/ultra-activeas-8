@@ -9,6 +9,7 @@
     margin: 20px;
     border-radius: 10px;
     position: relative;
+    background-color:white;
 }
 
 .my-btn{
@@ -16,7 +17,7 @@
     color: white;
     padding: 4px 10px;
     font-weight: bold;
-
+   transition: 1s;
     position: absolute;
     bottom: 0;
     width: 100%;
