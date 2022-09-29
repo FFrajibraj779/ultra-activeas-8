@@ -12,7 +12,7 @@ const Blogs = () => {
             </div>
 
             <div className='question-section'>
-                <h3>difference between probs and useState</h3>
+                <h3>2.difference between probs and useState</h3>
                 <p>The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.</p>
             </div>
 

@@ -44,7 +44,7 @@
 .day-btn{
     background-color: white;
     border-radius: 50%;
-
+     border: none;
     padding: 10px;
     font-size: 14px;
     font-weight: bold;
