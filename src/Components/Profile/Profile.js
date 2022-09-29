@@ -3,11 +3,14 @@ import './Profile.css'
 import image from '../image/my-bg.png'
 import { useEffect, useState } from 'react';
 import { SetStorage, getStoredTime } from '../SetStorage/SetStorage';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
 
 const Profile = ({ timeBtn }) => {
+    const notify = () => toast("Wow so easy!");
     const [dayBtn, setDayBtn] = useState([])
 
     // console.log(timeBtn);
@@ -105,8 +108,11 @@ const Profile = ({ timeBtn }) => {
                     <p style={{ color: '#444', fontWeight: '800' }}> <span>{dayBtn}</span> days</p>
                 </div>
                 <div className='btn-done'>
+                <div>
+        <button onClick={notify} className='complete-btn'>completed!</button>
+        <ToastContainer />
+      </div>
 
-                    <button className='complete-btn'>completed</button>
                 </div>
             </div>
         </div>
