@@ -7,9 +7,9 @@ const Profile = () => {
 
             <div className="profile-img">
                 <img src={image} alt="" />
-                <div>
-                    <p>Md Rajikul Islam</p>
-                    <p>Student</p>
+                <div className='name'>
+                    <h3>Md Rajikul Islam</h3>
+                    <p><i class="fa-solid fa-graduation-cap"></i>Student</p>
 
                 </div>
 
@@ -17,23 +17,23 @@ const Profile = () => {
 
             <div className="profile-desc">
                 <div>
-                    <p style={{ fontWeight: 'bold', fontSize: '30px' }}>60 <small style={{ color: 'light', fontWeight: '400', fontSize: '18px' }}>kg</small></p>
-                    <p>Weight</p>
+                    <p style={{ fontWeight: 'bold', fontSize: '25px' }}>60 <small className='weight'>kg</small></p>
+                    <p className='weight'>Weight</p>
                 </div>
                 <div>
-                    <p style={{ fontWeight: 'bold', fontSize: '30px' }}>6.4 <small style={{ color: 'light', fontWeight: '400', fontSize: '18px' }}>fet</small></p>
-                    <p>Height </p>
+                    <p style={{ fontWeight: 'bold', fontSize: '25px' }}>6.4 <small className='weight'>fet</small></p>
+                    <p className='weight'>Height </p>
                 </div>
                 <div>
-                    <p style={{ fontWeight: 'bold', fontSize: '30px' }}>18 <small style={{ color: 'light', fontWeight: '400', fontSize: '18px' }}>yrs</small></p>
-                    <p>Age</p>
+                    <p style={{ fontWeight: 'bold', fontSize: '25px' }}>18 <small className='weight'>yrs</small></p>
+                    <p className='weight'>Age</p>
                 </div>
 
 
             </div>
 
-            <div>
-                <h2>Add A Break</h2>
+            <div >
+                <h3 className='break-title'>Add A Break</h3>
                 <div className='break-time'>
                     <p>8 day </p>
                     <p>18 day </p>
@@ -45,21 +45,21 @@ const Profile = () => {
             </div>
 
             <div>
-                <h2>Working Details</h2>
+                <h3 className='break-title'>Working Details</h3>
 
                 <div className='working-details'>
-                    <p>Break time</p>
-                    <p>19 days</p>
+                    <p style={{fontWeight:'600'}}>Working time</p>
+                    <p style={{color:'#444', fontWeight:'800'}}>19 days</p>
                 </div>
             </div>
 
 
             <div>
-                <h2>Break Time </h2>
+                <h3 className='break-title'>Break Time </h3>
 
                 <div className='working-details'>
-                    <p>Break time</p>
-                    <p>19 days</p>
+                    <p style={{fontWeight:'600'}}>Break time</p>
+                    <p style={{color:'#444', fontWeight:'800'}}>19 days</p>
                 </div>
                 <div className='btn-done'>
 

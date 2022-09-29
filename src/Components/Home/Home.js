@@ -17,10 +17,9 @@ const Home = () => {
            
             <div className='home-container '>
 
-                <div>
+                <div className='container'>
                 <div className="home-info">
-                <img src={img} alt="" />
-
+               <p> </p>
                 <h1>Work With Home</h1>
             </div>
             <div className='career-title'>

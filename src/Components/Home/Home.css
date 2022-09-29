@@ -1,25 +1,63 @@
 
 .home-info{
   display: flex;
-  justify-content: center;
+  padding-left: 22px;
+  margin-bottom: 40px;
 }
-.home-info img{
-  width: 10%;
+ 
 
+@keyframes iconStyle {
+  0%{
+        color: blue;
+  }
+  25%{
+    
+ color: rgb(25, 35, 57);
+  }
+  50%{
+    color: white;
+       background-image: url(../image/images.jfif);
+  }
+  75%{
+    color: blue;
+    background-image: url(../image/images.png);
+  }
+  100%{
+color: #1944ed;
+background-image: url(../image/work.jfif);
+  }
+}
+.home-info p{
+  width: 100px;
+  height: 100px;
+  background-image: url(../image/work.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   transition: 3.56s;
+  animation: iconStyle 2s ease-in   infinite forwards ;
+}
+.container{
+  background-color: lavender;
+  padding: 40px;
+ 
 }
 .home-info h1{
   font-size: 50px;
   font-weight: bold;
+ 
 }
 .career-title{
   font-size: 25px;
   font-weight: 600;
+  padding-left: 22px;
 }
 .home-container{
   display: grid;
   grid-template-columns: 2.8fr 1.2fr;
- 
+
 } 
+
 .description-container{
 
 }
@@ -31,10 +69,18 @@ grid-template-columns: repeat(3, 1fr);
 } 
 
 @media  screen and (max-width:668px){
+  .container{
+  
+  }
  .home-info{
   display: flex;
   flex-direction: column;
+  padding-left: 0;
+  padding-bottom: 20px;
 
+ }
+ .home-info p{
+  display: none;
  }
  .home-info img{
 
