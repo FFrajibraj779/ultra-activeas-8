@@ -4,41 +4,53 @@
         "name": "Software Engineer",
         "time":10,
         "quantity":0,
-        "img":"https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        "img":"https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+
+        "description":"What does a software engineer do ? Image result for software engineer Software engineers design and create computer systems and applications to solve real-world problems. Software engineers.sometimes called software developers.create software for computers and applications."
     },
     {
         "id":2,
         "name": "Web Development",
         "time":8,
         "quantity":0,
-       "img":"https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+       "img":"https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+
+       "description":"What does a web developer do? Web developers create and maintain websites. They are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle. In addition, web developers may create content for the site."
     },
     {
         "id":3,
         "name": "Web Designer",
         "time":6,
         "quantity":0,
-       "img":"https://images.unsplash.com/photo-1581521911838-451ec295edf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+       "img":"https://images.unsplash.com/photo-1581521911838-451ec295edf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+       "description":"What is a web designer do? In simple terms, a website designer makes a site look good. They use design programs to create visual elements. Website designers usually have expertise in UI, or user interface, which means they strategically design a site that's intuitive and easy for visitors to navigate."
     },
     {
         "id":4,
         "name": "Ethical Hacker",
         "time":12,
         "quantity":0,
-       "img":"https://t4.ftcdn.net/jpg/02/18/82/01/240_F_218820123_dXtvDbk4lVSqAV8FFqNNLhlWB42rVwuy.jpg"
+       "img":"https://t4.ftcdn.net/jpg/02/18/82/01/240_F_218820123_dXtvDbk4lVSqAV8FFqNNLhlWB42rVwuy.jpg",
+      "description":"Ethical hackers use their knowledge to secure and improve the technology of organizations. They provide an essential service to these organizations by looking for vulnerabilities that can lead to a security breach. An ethical hacker reports the identified vulnerabilities to the organization."
+
+    
     },
     {
         "id":5,
         "name": "Computer Scientist",
         "time":14,
         "quantity":0,
-       "img":"https://images.unsplash.com/photo-1624957485467-f33854e1ad85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1519&q=80"
+       "img":"https://images.unsplash.com/photo-1624957485467-f33854e1ad85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1519&q=80",
+       
+       "description":"Computer and Information Scientists They use data science, robotics and computer programming principles to create or improve computer systems, software and algorithms and sometimes work with electrical and computer hardware engineers on complex projects"
     },
     {
         "id":6,
         "name": "App Development",
         "time":14,
         "quantity":0,
-       "img":"https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img/https://octopitech.com.bd/files/elementor/thumbs/mobile-app-development-ox3575hvlasixcj6ybgwtkke0zbsh9qzuvmkkh6h6w.jpg"
+       "img":"https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img/https://octopitech.com.bd/files/elementor/thumbs/mobile-app-development-ox3575hvlasixcj6ybgwtkke0zbsh9qzuvmkkh6h6w.jpg",
+
+       "description":"Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
     }
 ]

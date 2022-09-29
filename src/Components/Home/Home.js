@@ -23,7 +23,7 @@ const Home = () => {
                 <h1>Work With Home</h1>
             </div>
             <div className='career-title'>
-                <h2>Selected your Career</h2>
+                <h2>Choice your Career</h2>
             </div>
 
                      <div className='cart-container'>

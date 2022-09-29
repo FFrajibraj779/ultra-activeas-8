@@ -30,7 +30,12 @@
 .card-title{
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
 }
+
 .time{
     margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 17px;
 }
